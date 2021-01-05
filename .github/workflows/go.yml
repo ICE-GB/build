@@ -25,4 +25,6 @@ jobs:
         ./init.sh
 
     - name: Build
-      run: ./build-all.sh
+      run: |
+        cd build
+        ./build-all.sh
